@@ -1,1 +1,3 @@
-sudo rm -rf
+BEGIN{
+print "Hello there"
+}
