@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.lang.Math;
 
+// 9/29/2020
+
 // Prints out a multiplication table which has a size determined by the user.
 // Prints out a checkerboard with the pieces filled in.
 
