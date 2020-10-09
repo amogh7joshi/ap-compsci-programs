@@ -22,20 +22,19 @@ public class PalindromeCreator
 		}
 		
 		boolean checking = true; boolean palindrome = true;
-		int function = 0;
-		int i = 0;
+		int recursive = 0;
 
 		while (checking)
 		{				
-			if(splitWord[i+function] == splitWord[wordlength-1-function])
+			if(splitWord[recursive] == splitWord[wordlength-1-recursive])
 			{
-				if ((i+function) == (wordlength-function+1) || (i+function) == (wordlength-function+2))
+				if (recursive == (wordlength-recursive+1) || recursive == (wordlength-recursive+2))
 				{
 					palindrome = true;
 					checking = false;
 				}
 				else
-					function++;				
+					recursive++;				
 			}
 			else
 			{
