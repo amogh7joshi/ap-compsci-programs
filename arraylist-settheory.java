@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class arrayListClass {
+public class ArrayListClass {
 	private ArrayList<Integer> list1;
 	private ArrayList<Integer> list2;
 	
@@ -71,10 +71,6 @@ public class arrayListClass {
 	
 	public static void main(String[] args)
 	{
-		arrayListClass myclass = new arrayListClass();
-		
+		ArrayListClass myclass = new ArrayListClass();	
 	}
-	
-	
-	
 }
